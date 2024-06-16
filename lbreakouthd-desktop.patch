@@ -1,0 +1,12 @@
+--- lbreakouthd-1.1.8/lbreakouthd.desktop.orig	2024-04-02 18:01:23.000000000 +0200
++++ lbreakouthd-1.1.8/lbreakouthd.desktop	2024-06-16 13:37:01.027374268 +0200
+@@ -1,7 +1,8 @@
+ [Desktop Entry]
+ Name=LBreakoutHD
+ Comment=A ball-and-paddle game with nice graphics.
++Comment[pl]=Gra z piłeczką i paletką, z ładną grafiką.
+ Exec=lbreakouthd
+ Icon=lbreakouthd
+ Type=Application
+-Categories=Game;
++Categories=Game;ArcadeGame;

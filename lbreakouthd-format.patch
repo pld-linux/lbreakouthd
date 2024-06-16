@@ -1,0 +1,11 @@
+--- lbreakouthd-1.1.8/configure.ac.orig	2024-04-28 10:18:24.000000000 +0200
++++ lbreakouthd-1.1.8/configure.ac	2024-06-15 22:00:47.661691511 +0200
+@@ -55,7 +55,7 @@ debugflags="-O0 -g -DWITH_BUG_REPORT")
+ AC_SUBST(datdir)
+ AC_SUBST(hiscoredir)
+ 
+-CFLAGS="$CFLAGS -Wno-int-conversion -Wno-format -Wno-implicit-function-declaration"
++CFLAGS="$CFLAGS -Wno-int-conversion"
+ CFLAGS="$CFLAGS $debugflags -DSRC_DIR=\\\"$datdir\\\" -DCONFIG_DIR_NAME=\\\"$configdir\\\""
+ CXXFLAGS="$CXXFLAGS -std=c++11 -Wall $debugflags -DLOCALEDIR=\\\"$localedir\\\" -DCONFIGDIR=\\\"$configdir\\\" -DDATADIR=\\\"$datdir\\\" -DHISCOREDIR=\\\"$hiscoredir\\\""
+ 
